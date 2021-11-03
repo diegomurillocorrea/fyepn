@@ -14,7 +14,7 @@ module.exports = {
         },
         "yellow": {
           DEFAULT: "#dae61a",
-        }
+        },
       },
     },
   },
