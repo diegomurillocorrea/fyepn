@@ -1,7 +1,7 @@
 const AboutUs = () => {
     return (
         <div className="bg-light-blue-100">
-            <div className="font-righteous py-10 px-5 md:px-8 xl:flex">
+            <div className="font-righteous py-10 px-5 md:px-8 xl:flex mx-auto max-w-screen-2xl">
                 <div className="flex flex-col items-center justify-center space-y-10 xl:w-1/2 xl:space-y-16">
                     <div>
                         <p className="text-3xl md:text-4xl xl:text-5xl">
