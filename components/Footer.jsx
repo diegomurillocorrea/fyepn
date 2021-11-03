@@ -3,8 +3,8 @@ const Footer = () => {
         <div>
             <div className="bg-black text-center py-5 md:py-10 flex flex-col md:flex-row-reverse md:space-y-0 md: justify-center items-center lg:justify-between font-righteous space-y-5 lg:px-20">
                 <div className="md:pl-10 lg:pl-0">
-                    <p className="text-white text-xs md:text-base lg:text-lg">
-                        Copyright &copy; {new Date().getFullYear()}. DevBook &reg; Todos los derechos reservados.
+                    <p className="text-white text-sm md:text-lg lg:text-lg flex flex-col xl:flex-row xl:space-x-2">
+                        <span>Copyright &copy; {new Date().getFullYear()} DevBook &reg;</span><span>Todos los derechos reservados.</span>
                     </p>
                 </div>
                 <div>
