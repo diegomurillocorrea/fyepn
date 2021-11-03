@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        righteous: ['Righteous', 'sans-serif'],
+      },
       colors: {
         "light-blue": {
           DEFAULT: "#5ac0cc",
